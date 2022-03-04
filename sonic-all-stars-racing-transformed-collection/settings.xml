@@ -1,0 +1,30 @@
+<config>
+    <version>1.0</version>
+    <settings>
+        <language>0</language>
+    </settings>
+    <device>
+        <guid>183cd645-7681-afff-7e20-11764eccff83</guid>
+    </device>
+    <screenmode>
+        <width>1280</width>
+        <height>1024</height>
+        <bpp>32</bpp>
+        <refresh>60</refresh>
+        <fullscreen>0</fullscreen>
+    </screenmode>
+    <setup>
+        <graphiclevel>3</graphiclevel>
+        <waterlevel>0</waterlevel>
+        <texturelevel>0</texturelevel>
+        <modellevel>0</modellevel>
+        <shadowlevel>0</shadowlevel>
+    </setup>
+    <options>
+        <ambientocclusion>1</ambientocclusion>
+        <antialias>1</antialias>
+        <motionblur>1</motionblur>
+        <screensplash>1</screensplash>
+        <vsync>1</vsync>
+    </options>
+</config>

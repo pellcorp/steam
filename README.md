@@ -12,7 +12,9 @@ Installs fine on Steam on Ubuntu using Proton 7.0, but once I configure this con
 
 Once you have run the Configure step successfully at least once you can find these files at:
 
+```
 ~/.steam/steam/steamapps/compatdata/212480/pfx/drive_c/users/steamuser/Documents/SART/
+```
 
 # Hardware Issues
 
@@ -23,10 +25,14 @@ aka EBGames Play Wired Controller
 For Ubuntu at least, in order to get the EBGames Wired controller to work, need to add udev rule and some modules config.
 
 1) Copy https://gitlab.com/fabiscafe/game-devices-udev/-/raw/main/71-betop-controllers.rules to to /etc/udev/rules.d/:
+```
 wget -q https://gitlab.com/fabiscafe/game-devices-udev/-/raw/main/71-betop-controllers.rules -O- | sudo tee /etc/udev/rules.d/71-betop-controllers.rules > /dev/null
+```
 
 2) Load the uninput module:
+```
 echo "uinput" | sudo tee /etc/modules-load.d/uinput.conf > /dev/null
+```
 
 3) Reboot
 
